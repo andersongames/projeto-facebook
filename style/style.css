@@ -147,12 +147,6 @@ form.criar-conta input[type=date]{
     border-radius: 5px;
 }
 
-form div p{
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
 .criar-conta span{
     float: left;
     margin-top: 15px;
@@ -169,4 +163,33 @@ form.criar-conta input[type=submit]{
     border: 1px solid #456b36;
     font-size: 19px;
     border-radius: 5px;
+}
+
+.w100 h3{
+    margin-top: 18px;
+    margin-bottom: 5px;
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form select.nascimento{
+    margin-top: 2px;
+    float: left;
+}
+
+.input-radio{
+    margin: -15px 10px;
+    float: left;
+
+}
+
+.input-radio h3{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
 }
