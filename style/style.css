@@ -185,14 +185,16 @@ form.criar-conta input[type=submit]{
 .w100 h3{
     margin-top: 18px;
     margin-bottom: 5px;
-    color: #1d2129;
-    font-size: 18px;
+    color: #808894;
+    font-size: 17px;
     font-weight: bold;
 }
 
 form select.nascimento{
     margin-top: 2px;
     float: left;
+    height: 30px;
+    width: 60px;
 }
 
 .input-radio{
@@ -209,6 +211,10 @@ form select.nascimento{
 .input-radio input[type=radio]{
     width: auto !important;
     display: inline-block;
+}
+
+.input-radio h3{
+    color: #1d2129;
 }
 
 section.linguas{
