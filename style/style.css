@@ -257,3 +257,49 @@ section.linguas .copy p{
     margin-top: 10px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    form.form-login{
+        margin-top: 17px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .form-element input[type=email],
+    .form-element input[type=password]{
+        margin-top: 4px;
+        border: 0;
+        height: 22px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .form-element div a{
+        float: none;
+    }
+    .form-element input[type=submit]{
+        width: 120px;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .abrir-conta{
+        width: 100%;
+    }
+}
