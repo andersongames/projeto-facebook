@@ -250,3 +250,8 @@ section.linguas .footer2{
 section.linguas .footer2 a{
     padding: 5px;
 }
+
+footer.center p{
+    padding: 0 2%;
+    font-size: 12px;
+}
