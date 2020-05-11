@@ -234,24 +234,26 @@ section.linguas a.selected-lingua{
     padding-right: 5px;
 }
 
-section.linguas .center{
+section.linguas .footer1, section.linguas .footer2{
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
     max-width: 52%;
 }
 
-section.linguas .footer2{
-    margin-top: 5px;
-    border: 0;
+section.linguas .footer1{
+    border-bottom: 1px solid #ccc;
 }
 
-section.linguas .footer2 a{
+section.linguas .footer2{
+    margin-top: 3px;
+}
+
+section.linguas a{
     padding: 5px;
 }
 
-footer.center p{
-    padding: 0 2%;
+section.linguas .copy p{
+    margin-top: 10px;
     font-size: 12px;
 }
