@@ -63,14 +63,14 @@ form.form-login{
 
 .form-element input[type=submit]{
     cursor: pointer;
-    background: #114aa0;
-    border: 2px solid #04357e;
+    background: #3e649e;
+    border: 1px solid #264c86;
     color: white;
     padding: 3px 5px;
 }
 
 .form-element input[type=submit]:hover{
-    background: #04357e;
+    background: #345991;
 }
 
 section.main{
