@@ -16,7 +16,7 @@
 }
 
 header{
-    background: #2359af;
+    background: linear-gradient(#49699c, #2359af);
     padding: 8px 0;
 }
 
@@ -181,6 +181,10 @@ form.criar-conta input[type=submit]{
     border: 1px solid #456b36;
     font-size: 19px;
     border-radius: 5px;
+}
+
+form.criar-conta input[type=submit]:hover{
+    background: linear-gradient(#7fc46c, #578843);
 }
 
 .w100 h3{
